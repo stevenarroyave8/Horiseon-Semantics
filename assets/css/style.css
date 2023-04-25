@@ -1,3 +1,4 @@
+/* General styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,26 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,24 +62,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
+/* Image classes */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +79,7 @@ p {
     margin-left: 20px;
 }
 
+/* Benefits class styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,6 +113,7 @@ p {
     max-width: 150px;
 }
 
+/* Element styles */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -132,6 +138,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer styles */
 .footer {
     padding: 30px;
     clear: both;
